@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Financial Dashboard</title>
+
+    <meta charset="UTF-8">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container mt-5">
+
+    <h1 class="text-center text-primary mb-3">
+        Financial Dashboard
+    </h1>
+
+    <p class="text-center text-muted">
+        All financial figures are represented in ₹ Crores.
+    </p>
+
+    <!-- PDF Download Button -->
+
+    <div class="text-center mb-4">
+
+        <a href="/download_dashboard_pdf"
+           class="btn btn-danger btn-lg">
+
+            📄 Download Dashboard PDF
+
+        </a>
+
+    </div>
+
+    <!-- Dashboard Cards -->
+
+    <div class="row text-center mt-4">
+
+        <div class="col-md-3 mb-3">
+
+            <div class="card bg-primary text-white shadow">
+
+                <div class="card-body">
+
+                    <h5>Revenue</h5>
+
+                    <h2>
+                        ₹{{ "{:,.0f}".format(latest_revenue) }} Cr
+                    </h2>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-3 mb-3">
+
+            <div class="card bg-success text-white shadow">
+
+                <div class="card-body">
+
+                    <h5>Profit</h5>
+
+                    <h2>
+                        ₹{{ "{:,.0f}".format(latest_profit) }} Cr
+                    </h2>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-3 mb-3">
+
+            <div class="card bg-info text-white shadow">
+
+                <div class="card-body">
+
+                    <h5>Assets</h5>
+
+                    <h2>
+                        ₹{{ "{:,.0f}".format(latest_assets) }} Cr
+                    </h2>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-3 mb-3">
+
+            <div class="card bg-warning shadow">
+
+                <div class="card-body">
+
+                    <h5>Health Score</h5>
+
+                    <h2>
+                        {{ health_score }}/100
+                    </h2>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <!-- Financial Ratios -->
+
+    <h3 class="text-center mb-4">
+        Financial Ratios
+    </h3>
+
+    <div class="row text-center">
+
+        <div class="col-md-4 mb-3">
+
+            <div class="card border-success shadow-sm">
+
+                <div class="card-body">
+
+                    <h5>Profit Margin</h5>
+
+                    <h3>
+                        {{ profit_margin }}%
+                    </h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-4 mb-3">
+
+            <div class="card border-primary shadow-sm">
+
+                <div class="card-body">
+
+                    <h5>Debt Equity Ratio</h5>
+
+                    <h3>
+                        {{ debt_equity_ratio }}
+                    </h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-4 mb-3">
+
+            <div class="card border-warning shadow-sm">
+
+                <div class="card-body">
+
+                    <h5>ROA</h5>
+
+                    <h3>
+                        {{ roa }}%
+                    </h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <!-- AI Insights -->
+
+    <h3 class="text-center text-success">
+        AI Financial Insights
+    </h3>
+
+    <div class="card shadow p-3 mt-3 mb-4">
+
+        <ul class="mb-0">
+
+            {% for insight in insights %}
+
+            <li class="mb-2">
+                {{ insight }}
+            </li>
+
+            {% endfor %}
+
+        </ul>
+
+    </div>
+
+    <hr>
+
+    <!-- Revenue Graph -->
+
+    <h3 class="text-center">
+        Revenue Trend (₹ Crore)
+    </h3>
+
+    <div class="mt-3">
+
+        {{ revenue_graph|safe }}
+
+    </div>
+
+    <hr>
+
+    <!-- Profit Graph -->
+
+    <h3 class="text-center">
+        Profit Trend (₹ Crore)
+    </h3>
+
+    <div class="mt-3">
+
+        {{ profit_graph|safe }}
+
+    </div>
+
+    <hr>
+
+    <!-- Financial Data Table -->
+
+    <h3 class="text-center">
+        Financial Data Table
+    </h3>
+
+    <div class="table-responsive mt-3">
+
+        {{ tables|safe }}
+
+    </div>
+
+    <br><br>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,303 @@
+type,dish name,price
+Veg, Mango Ras,₹114
+Veg, Large Coke ,₹104
+Veg, Large Fanta,₹104
+Veg, Large Sprit,₹104
+Veg, Medium Coke ,₹98
+Veg, Medium Sprite,₹98
+Veg, Medium Fanta,₹98
+Veg, Cold Coffee,₹122
+Veg, Chocolate Milk Shake,₹75
+Veg, Minute Maid Pulpy Orange,₹952.3
+Veg, Small Coke ,₹81
+Veg, Small Fanta,₹81
+Veg, Small Sprite,₹81
+Veg, Masala Chai,₹56
+Veg, Schweppes Bottled Water,₹571.4
+ Veg, Ranveer Singh Meal McVeggie Xplode,₹286
+ Veg, Large EVM McVeggie Xplode,₹314
+ Veg, EVM McVeggie Xplode,₹290
+ Veg, McVeggie Xplode VM,₹207
+ Veg, McVeggie Xplode,₹148
+Non-veg, Ranveer Singh Meal McChicken Xplode,₹309
+Non-veg, Large EVM McChicken Xplode,₹325
+Non-veg, EVM McChicken Xplode,₹301
+Non-veg, McChicken Xplode VM,₹233
+Non-veg, McChicken® Xplode,₹171
+Veg, Bobaaa Blast,₹148
+Veg, Golden Crispy Pops,₹137
+Veg, Korean McSpicy®Paneer Meal*,₹367
+Veg, Korean McSpicy®Paneer Burger*,₹206
+Veg, Large Korean McSpicy® Paneer,₹376
+Veg, EVM Korean McSpicy®Paneer*,₹352
+Non-veg, Korean McSpicy®Chicken Meal*,₹378
+Non-veg, Korean McSpicy®Chicken Burger*,₹217
+Non-veg, EVM Korean McSpicy®Chicken*,₹360
+Non-veg, Large EVM Korean McSpicy® Chicken,₹384
+Veg, Korean McAlooTikki Meal*,₹229
+Veg, Korean McAloo Tikki Burger,₹68
+Veg, EVM Korean McAloo Tikki Burger,₹217
+Veg, Large EVM Korean McAloo Tikki,₹242
+Veg, Aloo Wrap Meal,₹267
+Veg, McVeggie Meal,₹294
+Veg, McAloo Tikki Meal. This item is a Bestseller,₹234
+Veg, Veg Surprise Meal,₹255
+Non-veg, Chicken McGrill Meal,₹282
+Non-veg, McChicken Meal,₹327
+Non-veg, Tandoori Chicken Wrap Meal,₹290
+Non-veg, McEgg Meal,₹244
+Veg,Crispy Veggie Burger*,₹196
+Veg, EVM Crispy Veggie*,₹334
+Veg, Large Crispy Veggie*,₹360
+Non-veg, McCrispy® Chicken*,₹218
+Non-veg, EVM McCrispy® Chicken*,₹357
+Non-veg, Large EVM McCrispy® Chicken,₹383
+Veg, Crispy Veggie Double patty Burger,₹309
+Veg, EVM Crispy Veggie Double patty Burger,₹447
+Veg, Large EVM Crispy Veggie Double patty Burger,₹474
+Non-veg, McCrispy® Chicken Double patty Burger,₹332
+Non-veg, EVM McCrispy® Chicken Double patty Burger,₹470
+Non-veg, Large EVM McCrispy® Chicken Double patty Burger,₹497
+Veg, McVeggie Burger+ Small Fries+Small Coke+McPuff. This item is a Bestseller,₹202
+Non-veg, McChicken Burger+Small Fries +Small Coke+McPuff,₹237
+Veg, McAloo Tikki+Small Fries+Small drink+McPuff. This item is a Bestseller,₹143
+Veg, McAloo Tikki+Small Coke,₹135
+Veg, VegSurprise+McPuff,₹125
+Veg, McAloo Tikki+McPuff,₹104
+Non-veg, McEgg+Puff,₹111
+Non-veg, Chicken Puff 1+1*,₹136
+Non-veg, Tandoori Chicken Wrap 1+1*,₹228
+Veg, Aloo Wrap 1+1*,₹182
+Veg, Pizza McPuff 1+1*,₹98
+Non-veg, VM McChicken®,₹234
+Non-veg, Egg Wrap VM,₹167
+Veg, Iced Coffee,₹125
+Veg, Watermelon Cooler,₹114
+Veg, Strawberry Shake,₹194
+Veg, Chocolate Shake,₹194
+Veg, Vanilla Oreo Shake,₹206
+Veg, Cold Coffee Frappe,₹206
+Veg, Caramel Frappe,₹286
+Veg, Cappuccino,₹171
+Veg, Latte,₹183
+Veg, Latte Small,₹148
+Veg, Mocha,₹229
+Veg, Mocha Small,₹183
+Veg, Americano,₹171
+Veg, Americano Small,₹137
+Veg, Peach Iced Tea,₹194
+Veg, Hot Chocolate,₹171
+Veg, Espresso Small,₹102
+Veg, Macchiato Small,₹137
+Veg, Strawberry Cheese cake,₹219
+Veg, Butter Croissant,₹197
+Veg, Garlic Marinara Toasty,₹153
+Non-veg, Chicken Puff,₹68
+Non-veg, EVM Chicken Puff,₹207
+Non-veg, Large EVM Chicken Puff,₹231
+Veg, McFlurry Choco Caramel*,₹137
+Veg, Small McFlurry Choco Caramel*,₹104
+Veg, Coke ® Zero,₹91
+Veg, EVM Veg Maharaja Mac,₹375
+Veg, EVM Big Spicy Paneer Wrap,₹366
+Veg, EVM McSpicy? Paneer,₹340
+Veg, EVM McVeggie?,₹260
+Veg, EVM Butter Paneer Grilled Burger,₹265
+Veg, EVM Veg Surprise,₹217
+Veg, EVM Pizza McPuff®,₹189
+Veg, EVM McAloo Tikki Burger?,₹207
+Non-veg, EVM Big Spicy Chicken Wrap,₹386
+Non-veg, EVM Chicken Maharaja Mac®,₹386
+Veg, EVM McNuggets® 9pc,₹348
+Non-veg, EVM McSpicy? Chicken,₹344
+Non-veg, EVM Filet O Fish®,₹317
+Veg, EVM McNuggets® 6pc,₹306
+Non-veg, EVM McChicken?,₹281
+Non-veg, EVM Chicken McGrill®,₹248
+Non-veg, EVM McEgg®,₹199
+Veg, Large EVM Veg Maharaja Mac,₹399
+Veg, Large EVM Big Spicy Paneer Wrap,₹390
+Veg, Large EVM McSpicy? Paneer,₹365
+Veg, Large EVM McVeggie®,₹284
+Veg, Large EVM Veg Surprise,₹245
+Veg, Large EVM Butter Paneer Grilled Burger,₹284
+Veg, Large EVM McAloo Tikki Burger?,₹231
+Veg, Large EVM Pizza McPuff®,₹213
+Non-veg, Large EVM Big Spicy Chicken Wrap,₹411
+Non-veg, Large EVM Chicken Maharaja Mac®,₹411
+Veg,Large EVM McNuggets® 9pc,₹373
+Non-veg, Large EVM McSpicy® Chicken,₹368
+Non-veg, Large EVM Filet O Fish®,₹342
+Veg, Large EVM McNuggets® 6pc,₹330
+Non-veg, Large EVM McChicken?,₹305
+Non-veg, Large EVM Chicken McGrill?,₹273
+Non-veg, Large EVM McEgg®,₹223
+Veg, Large EVM Aloo Wrap,₹260
+Non-veg,Large EVM Tandoori Chicken Wrap,₹277
+Non-veg,Large EVM Egg Wrap,₹271
+Veg, Happy Meal McAloo Tikki Burger*,₹179
+Non-veg, Happy Meal-Chicken McGrill*,₹222
+Veg, HappyMeal-McVeggie *,₹227
+Non-veg, HappyMeal Chicken McNuggets Meal*,₹227
+Veg, Veg Maharaja Mac,₹237
+Veg, McSpicy? Paneer,₹197
+Veg, McVeggie?. This item is a Bestseller,₹118
+Veg, McAloo Tikki Burger ®. This item is a Bestseller,₹58
+Veg, Butter Paneer Grilled,₹121
+Veg, Veg-Surprise Burger*. This item is a Bestseller,₹79
+Non-veg, Chicken Maharaja Mac®,₹247
+Non-veg, Filet O Fish®,₹194
+Non-veg, McSpicy® Chicken. This item is a Bestseller,₹201
+Non-veg, McChicken?,₹151
+Non-veg, Chicken McGrill?,₹106
+Non-veg, McEgg?,₹68
+Veg, Big Spicy Paneer Wrap. This item is a Bestseller,₹236
+Veg, EVM Aloo Wrap,₹233
+Veg, Aloo Wrap,₹91
+Non-veg, Big Spicy Chicken Wrap,₹248
+Non-veg, EVM Tandoori Chicken Wrap,₹260
+Non-veg, EVM Egg Wrap,₹248
+Non-veg, Tandoori Chicken Wrap,₹114
+Non-veg, Egg Wrap,₹102
+Veg, Large EVM McSpicy Paneer® Double patty Burger,₹492
+Veg, EVM McSpicy Paneer® Double patty Burger,₹459
+Veg, Large EVM McVeggie? Double patty Burger,₹336
+Veg, McSpicy Paneer? Double patty Burger,₹316
+Veg, EVM McVeggie? Double patty Burger,₹307
+Veg, Large EVM Veg Surprise Double patty,₹274
+Veg, EVM Dbl Veg Surprise Double patty,₹250
+Veg, Large EVM McAloo Tikki Burger? Double patty,₹265
+Veg, EVM McAloo Tikki Burger? Double patty,₹239
+Veg, McVeggie® Double patty Burger,₹173
+Veg, Butter Paneer Grilled Double patty Burger,₹208
+Veg, EVM Butter Paneer Grilled Double Patty Burger,₹340
+Veg, Large EVM Butter Paneer Grilled Double Patty Burger,₹365
+Veg, Veg Surprise Double patty,₹110
+Veg, McAloo Tikki Burger? Double patty,₹89
+Non-veg, Large EVM McSpicy Chicken® Double patty Burger,₹498
+Non-veg, Large EVM Filet O Fish® Double patty Burger,₹482
+Non-veg, EVM McSpicy Chicken? Double patty Burger,₹466
+Non-veg, EVM Chicken Surprise Double patty Burger,₹250
+Non-veg, Large EVM McChicken® Double patty Burger,₹390
+Non-veg, EVM Filet O Fish® Double patty Burger,₹460
+Non-veg, EVM McChicken® Double patty Burger,₹366
+Non-veg, McSpicy Chicken® Double patty Burger,₹339
+Non-veg, Large EVM Chicken McGrill? Double patty Burger,₹331
+Non-veg, Filet O Fish® Double patty Burger,₹334
+Non-veg, EVM Chicken McGrill® Double patty Burger,₹307
+Non-veg, McChicken? Double patty Burger,₹238
+Non-veg, Chicken McGrill® Double patty Burger,₹168
+Non-veg, Spicy Paneer/Spicy Chicken Wrap(Any 2)+1 Med. Fries+2 Puff,₹635
+Non-veg, MaharajMac Veg/MaharajMac Chicken(Any Two)+1 Medium Fries+2,₹627
+Non-veg, Spicy Paneer/Spicy Chicken Burger(Any 2)+1 Med Fries+2 Puff,₹548
+Non-veg, McVeggie/McChicken(Any Two)+1 Medium Fries+2 McPuff,₹420
+Veg,Match Night Combo-Veg,₹269
+Veg, Cricket wali Party Combo-Veg,₹429
+Veg, House Party wali Meal-Veg,₹549
+Non-veg, Match Night Combo-Non-Veg,₹519
+Non-veg, Cricket Wali Party Combo-Non -Veg,₹329
+Non-veg, House Party wali Meal-Non-Veg,₹649
+Veg, Korean McFlavor Fries*,₹148
+Veg,McFlavor Fries (Med.),₹147
+Veg, McFlavor Fries (Reg.),₹114
+Veg, Medium-Fries,₹118
+Veg, Large Fries. This item is a Bestseller,₹132
+Veg, Small Fries,₹95
+Veg, Pizza McPuff®,₹49
+Veg, Piri Piri Seasoning,₹23
+Non-veg,Chicken McNuggets® 20pc,₹397
+Non-veg, Chicken McNuggets® 9pc,₹209
+Non-veg, Chicken McNuggets® 6pc,₹161
+Veg, Medium Fries,₹118
+Non-veg, Happy Hour Chicken McNuggets® 20pc,₹397
+Non-veg, Happy Hour Chicken McNuggets® 9pc,₹209
+Veg, Chocolate Brownie Sundae,₹115
+Veg, McFlurry® Oreo,₹127
+Veg, McFlurry® Choc Crunch,₹127
+Veg, StrawberrySundae,₹91
+Veg, Chocolate Sundae,₹91
+Veg, Small McFlurry® Oreo,₹93
+Veg, Small McFlurry® Choc crunch,₹93
+Veg, Large Coke ®,₹104
+Veg, Large Fanta,₹104
+Veg, Large Sprite,₹104
+Veg, Medium Coke,₹98
+Veg, Medium Fanta,₹98
+Veg, Medium Sprite,₹98
+Veg, Cold Coffee. This item is a Bestseller,₹122
+Veg, Chocolate Milk shake,₹75
+Veg, Minute Maid Pulpy Orange,₹9523
+Veg, Korean Yuzu Fizz*,₹91
+Veg, Small Coke ®,₹81
+Veg, Small Fanta,₹81
+Veg, Small Sprite,₹81
+Veg, Masala Chai,₹56
+Veg, Schweppes™ Bottled Water,₹571.4
+Veg, Barbeque Dip,₹22
+Veg, Mustard Dip,₹22
+Veg, Chilli Sauce,₹190
+Veg, Ketchup,₹095
+Veg, Smoky Chipotle Sauce,₹29
+Veg, Veg Supreme McMuffin,₹102
+Veg, Veg Supreme McMuffin With Beverage,₹192
+Veg, EVM Veg Supreme McMuffin,₹227
+Veg, McFlurry Choco-Caramel,₹137
+Veg, Small McFlurry Choco-Caramel*,₹104
+Veg, Coke Zero,₹91
+Veg, Iced Coffee,₹125
+Veg, Watermelon Cooler,₹114
+Veg, Strawberry Shake,₹194
+Veg, Chocolate Shake,₹194
+Veg, Vanilla Oreo Shake,₹206
+Veg, Cold Coffee Frappe,₹206
+Veg, Caramel Frappe,₹286
+Veg, Peach Iced Tea,₹194
+Veg, Cappuccino,₹171
+Veg, Cappuccino Small,₹114
+Veg, Latte,₹183
+Veg, Latte Small,₹148
+Veg, Americano,₹171
+Veg, Americano Small,₹137
+Veg, Mocha,₹229
+Veg, Mocha Small,₹183
+Veg, Espresso Small,₹102
+Veg, Hot Chocolate Small,₹171
+Veg, Macchiato Small,₹137
+Veg, Strawberry_Cheese_Cake,₹219
+Veg, Butter_Croissant,₹197
+Veg, Garlic_Marinara_Toasty,₹153
+Veg, Hot Cake,₹114
+Veg,Veg McMuffin?,₹91
+Veg, Hash Brown,₹45
+Non-veg, Egg & Cheese McMuffin?,₹91
+Non-veg, Sausage McMuffin?,₹114
+Non-veg, Egg & Sausage McMuffin?,₹114
+Veg, Veg McMuffin with Beverage,₹181
+Non-veg, Sausage McMuffin with Beverage,₹215
+Non-veg, Egg & Sausage McMuffin with Beverage,₹215
+Non-veg, 2PC Egg & Cheese McMuffin,₹181
+Veg, 2PC Hot Cake,₹215
+Non-veg, McEgg with Beverage,₹152
+Veg, Hash brown with Beverage,₹140
+Veg, EVM Hot Cake,₹244
+Veg, EVM Veg McMuffin,₹215
+Non-veg, EVM Sausage McMuffin,₹232
+Non-veg, EVM Egg & Sausage McMuffin,₹250
+Non-veg, EVM Egg & Cheese McMuffin,₹215
+Non-veg, EVM McEgg*,₹186
+Non-veg, McVeggie ,₹118
+Veg,McSpicy Paneer,₹197
+Veg, Big Spicy Paneer Wrap,₹236
+Veg, Pizza McPuff,₹49
+Veg, McAloo Tikki Burger,₹58
+Non-veg, Chicken McGrill,₹106
+Non-veg, McChicken ,₹151
+Non-veg, McSpicy Chicken ,₹201
+Non-veg, Big Spicy Chicken Wrap,₹248
+Veg, McFlurry Oreo,₹127
+Veg, Chocolate Brownie Sundae,₹115
+Veg, McFlurry  Choc Crunch,₹127
+Veg, Strawberry Sundae,₹91
+Veg, Chocolate Sundae,₹91
+Veg, Small McFlurry Oreo,₹93
+Veg, Small McFlurry  Choc crunch,₹93
