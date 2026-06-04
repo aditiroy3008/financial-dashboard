@@ -2,17 +2,6 @@ from flask import Flask, render_template, request, send_file
 import pandas as pd
 import plotly.express as px
 import os
-
-from reportlab.platypus import (
-    SimpleDocTemplate,
-    Paragraph,
-    Spacer,
-    Image
-)
-from reportlab.lib.styles import getSampleStyleSheet
-
-app = Flask(__name__)
-
 # -------------------------
 # Folder Setup
 # -------------------------
@@ -94,16 +83,6 @@ def upload():
         revenue_graph = revenue_fig.to_html(
             full_html=False
         )
-
-        revenue_chart_path = os.path.join(
-            UPLOAD_FOLDER,
-            "revenue_chart.png"
-        )
-
-        revenue_fig.write_image(
-            revenue_chart_path
-        )
-
         # -------------------------
         # Profit Chart
         # -------------------------
@@ -118,16 +97,6 @@ def upload():
         profit_graph = profit_fig.to_html(
             full_html=False
         )
-
-        profit_chart_path = os.path.join(
-            UPLOAD_FOLDER,
-            "profit_chart.png"
-        )
-
-        profit_fig.write_image(
-            profit_chart_path
-        )
-
         # -------------------------
         # Financial Data
         # -------------------------
@@ -228,8 +197,6 @@ def upload():
             "debt_equity_ratio": debt_equity_ratio,
             "roa": roa,
             "insights": insights,
-            "revenue_chart": revenue_chart_path,
-            "profit_chart": profit_chart_path
         }
 
         return render_template(
@@ -238,162 +205,6 @@ def upload():
         )
 
     return render_template('upload.html')
-
-
-# -------------------------
-# PDF Download Route
-# -------------------------
-
-@app.route('/download_dashboard_pdf')
-def download_dashboard_pdf():
-
-    pdf_file = "Financial_Report.pdf"
-
-    doc = SimpleDocTemplate(
-        pdf_file
-    )
-
-    styles = getSampleStyleSheet()
-
-    story = []
-
-    story.append(
-        Paragraph(
-            "Financial Dashboard Report",
-            styles['Title']
-        )
-    )
-
-    story.append(
-        Spacer(1, 20)
-    )
-
-    story.append(
-        Paragraph(
-            f"Revenue : Rs. {latest_report_data['latest_revenue']:,} Cr",
-            styles['Normal']
-        )
-    )
-
-    story.append(
-        Paragraph(
-            f"Profit : Rs. {latest_report_data['latest_profit']:,} Cr",
-            styles['Normal']
-        )
-    )
-
-    story.append(
-        Paragraph(
-            f"Assets : Rs. {latest_report_data['latest_assets']:,} Cr",
-            styles['Normal']
-        )
-    )
-
-    story.append(
-        Paragraph(
-            f"Health Score : {latest_report_data['health_score']}/100",
-            styles['Normal']
-        )
-    )
-
-    story.append(
-        Spacer(1, 20)
-    )
-
-    story.append(
-        Paragraph(
-            "Financial Ratios",
-            styles['Heading2']
-        )
-    )
-
-    story.append(
-        Paragraph(
-            f"Profit Margin : {latest_report_data['profit_margin']}%",
-            styles['Normal']
-        )
-    )
-
-    story.append(
-        Paragraph(
-            f"Debt Equity Ratio : {latest_report_data['debt_equity_ratio']}",
-            styles['Normal']
-        )
-    )
-
-    story.append(
-        Paragraph(
-            f"ROA : {latest_report_data['roa']}%",
-            styles['Normal']
-        )
-    )
-
-    story.append(
-        Spacer(1, 20)
-    )
-
-    story.append(
-        Paragraph(
-            "AI Financial Insights",
-            styles['Heading2']
-        )
-    )
-
-    for insight in latest_report_data['insights']:
-
-        story.append(
-            Paragraph(
-                "• " + insight,
-                styles['Normal']
-            )
-        )
-
-    story.append(
-        Spacer(1, 20)
-    )
-
-    story.append(
-        Paragraph(
-            "Revenue Trend Chart",
-            styles['Heading2']
-        )
-    )
-
-    story.append(
-        Image(
-            latest_report_data['revenue_chart'],
-            width=450,
-            height=250
-        )
-    )
-
-    story.append(
-        Spacer(1, 20)
-    )
-
-    story.append(
-        Paragraph(
-            "Profit Trend Chart",
-            styles['Heading2']
-        )
-    )
-
-    story.append(
-        Image(
-            latest_report_data['profit_chart'],
-            width=450,
-            height=250
-        )
-    )
-
-    doc.build(story)
-
-    return send_file(
-        pdf_file,
-        as_attachment=True
-    )
-
-
 # -------------------------
 # Run App
 # -------------------------
