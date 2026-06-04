@@ -2,11 +2,13 @@ from flask import Flask, render_template, request, send_file
 import pandas as pd
 import plotly.express as px
 import os
+app = Flask(__name__)
 # -------------------------
 # Folder Setup
 # -------------------------
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 
 UPLOAD_FOLDER = os.path.join(
     BASE_DIR,
